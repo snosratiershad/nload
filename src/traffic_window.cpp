@@ -23,6 +23,7 @@
 #include "deviceview.h"
 #include "setting.h"
 #include "settingstore.h"
+#include <curses.h>
 
 using namespace std;
 
@@ -51,6 +52,7 @@ void TrafficWindow::processKey(int key)
         case KEY_LEFT:
         case KEY_UP:
         case KEY_PPAGE:
+        case KEY_BTAB:
             m_curDev -= showMultipleDevices() ? getHeight() / 9 : 1;
             break;
     }
