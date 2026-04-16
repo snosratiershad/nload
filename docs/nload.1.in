@@ -159,7 +159,7 @@ Navigate within the edit fields.
 Navigate between the settings.
 
 .TP
-.B 'PageUp', 'PageDown', 'Tab'
+.B 'PageUp', 'PageDown', 'Tab', 'Backward Tab'
 Toggle between the different values possible for the current field.
 
 .TP
